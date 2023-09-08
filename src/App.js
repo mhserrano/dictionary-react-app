@@ -1,5 +1,5 @@
 import "./App.css";
-import SearchForm from "./SearchForm.js";
+import Dictionary from "./Dictionary.js";
 
 function App() {
   return (
@@ -9,9 +9,11 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <SearchForm />
+          <Dictionary />
         </main>
-        <footer className="text-center m-3">Coded by Maria Serrano</footer>
+        <footer className="text-center m-3">
+          Open-sourced code by Maria Serrano
+        </footer>
       </div>
     </div>
   );

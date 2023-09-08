@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./SearchForm.css";
+import "./Dictionary.css";
 
-export default function SearchForm() {
+export default function Dictionary() {
   const [word, setWord] = useState("sunset");
   function updateWord(event) {
     setWord(event.target.value);
