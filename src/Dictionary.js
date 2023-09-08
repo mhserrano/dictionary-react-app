@@ -1,14 +1,23 @@
 import { useState } from "react";
 import "./Dictionary.css";
+import axios from "axios";
 
 export default function Dictionary() {
   const [word, setWord] = useState("sunset");
-  function updateWord(event) {
-    setWord(event.target.value);
+
+  function handleResponse(response) {
+    console.log(response.data[0]);
   }
+
   function handleSubmit(event) {
     event.preventDefault();
-    alert(word);
+
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`;
+    axios.get(apiUrl).then(handleResponse);
+  }
+
+  function updateWord(event) {
+    setWord(event.target.value);
   }
 
   return (
