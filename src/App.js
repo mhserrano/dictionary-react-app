@@ -11,9 +11,6 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center m-3">
-          Open-sourced code by Maria Serrano
-        </footer>
       </div>
     </div>
   );
