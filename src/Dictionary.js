@@ -28,11 +28,10 @@ export default function Dictionary() {
         <label className="d-block">What word do you want to look up?</label>
         <input
           type="search"
-          placeholder="Type here..."
+          placeholder="Search for a word"
           autoFocus={true}
           onChange={updateWord}
         ></input>
-        <input type="submit" value="Search"></input>
       </form>
       <Results results={results} />
     </div>
