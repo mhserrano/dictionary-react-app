@@ -4,8 +4,8 @@ import Results from "./Results";
 import axios from "axios";
 
 export default function Dictionary() {
-  const [word, setWord] = useState("");
-  const [results, setResults] = useState(null);
+  let [word, setWord] = useState("");
+  let [results, setResults] = useState(null);
 
   function handleResponse(response) {
     setResults(response.data);
