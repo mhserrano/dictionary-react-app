@@ -25,7 +25,6 @@ export default function Dictionary() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label className="d-block">What word do you want to look up?</label>
         <input
           type="search"
           placeholder="Search for a word"
