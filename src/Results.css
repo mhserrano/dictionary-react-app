@@ -1,0 +1,14 @@
+.Word h2,
+.Word p {
+  text-align: center;
+  font-weight: 600;
+}
+.Word h2 {
+  margin-top: 20px;
+}
+
+.Word p {
+  margin: 0;
+  font-size: 18px;
+  padding: 10px;
+}
