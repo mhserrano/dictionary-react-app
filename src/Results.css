@@ -7,8 +7,9 @@
   margin-top: 20px;
 }
 
-.Word p {
+.Word .phonetic {
   margin: 0;
   font-size: 18px;
   padding: 10px;
+  opacity: 0.7;
 }
