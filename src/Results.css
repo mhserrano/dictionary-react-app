@@ -13,3 +13,12 @@
   padding: 10px;
   opacity: 0.7;
 }
+
+@media (max-width: 570px) {
+  .Word h2 {
+    margin-top: 10px;
+  }
+  .Word .phonetic {
+    padding: 0;
+  }
+}
