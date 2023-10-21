@@ -7,7 +7,12 @@ export default function Photos(props) {
       <section className="Photos">
         {props.photos.map(function (photo, index) {
           return (
-            <a href={photo.src.original} target="_blank" key={index}>
+            <a
+              href={photo.src.original}
+              target="_blank"
+              rel="noreferrer"
+              key={index}
+            >
               <img src={photo.src.portrait} className="img-fluid"></img>
             </a>
           );
