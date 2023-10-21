@@ -1,0 +1,23 @@
+.Photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Photos img {
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+.Photos img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 770px) {
+  .Photos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Photos img {
+    margin: 0 auto;
+  }
+}

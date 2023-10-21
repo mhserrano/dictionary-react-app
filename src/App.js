@@ -9,7 +9,7 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="home" />
+          <Dictionary defaultKeyword="moon" />
         </main>
       </div>
     </div>
