@@ -13,7 +13,11 @@ export default function Photos(props) {
               rel="noreferrer"
               key={index}
             >
-              <img src={photo.src.portrait} className="img-fluid"></img>
+              <img
+                src={photo.src.portrait}
+                className="img-fluid"
+                alt="related"
+              ></img>
             </a>
           );
         })}
