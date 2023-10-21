@@ -17,12 +17,22 @@ function App() {
       <footer>
         This project was coded by{" "}
         <strong>
-          <a href="https://github.com/mhserrano">Maria Serrano</a>
+          <a
+            href="https://github.com/mhserrano"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Maria Serrano
+          </a>
         </strong>{" "}
         and is{" "}
         <strong>
           {" "}
-          <a href="https://github.com/mhserrano/dictionary-react-app">
+          <a
+            href="https://github.com/mhserrano/dictionary-react-app"
+            target="_blank"
+            rel="noreferrer"
+          >
             open sourced
           </a>
         </strong>{" "}
